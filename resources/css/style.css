@@ -77,15 +77,21 @@ nav a {
     text-align: center;
 }
 
+#tea_of_month img{
+    height: 200px;
+    width: 300px;
+}
+
 #first_line {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; 
 }
 
-#first_line img{
-    height: 200px;
-    width: 300px;
+.first_line_tea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #second_line {
@@ -93,41 +99,11 @@ nav a {
     justify-content: center;
 }
 
-#second_line img{
-    height: 200px;
-    width: 300px;
-}
-
-#berry_litz {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#spiced_rum {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#seasonal_donuts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#myrtle_ave {
+.second_line_tea {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 12px;
-}
-
-#bedford_bizarre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 12px;
 }
 
 /* locations */
