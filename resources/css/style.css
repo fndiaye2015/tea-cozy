@@ -1,0 +1,191 @@
+/* beginning of body */
+body {
+    margin: 0px;
+    font-family: Helvetica, Arial,  sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* beginning of the header */ 
+header {
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 2;
+}
+
+img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav {
+    margin-right: -10px;
+}
+
+nav a {
+    color: seashell;
+    margin-right: 20px;
+}
+
+/* beginning of the main */
+
+#main {
+    margin-top: 67px; 
+}
+
+/* our mission */
+#img_mission {
+    margin: auto;
+    background-image: url("../img/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title_mission {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.title_mission {
+    margin: 10px;
+}
+
+/* Tea of the Month */ 
+#tea_of_month {
+    width: 1000px;
+    margin: 84px auto;
+}
+
+#tea_title {
+    text-align: center;
+}
+
+#first_line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+#first_line img{
+    height: 200px;
+    width: 300px;
+}
+
+#second_line {
+    display: flex;
+    justify-content: center;
+}
+
+#second_line img{
+    height: 200px;
+    width: 300px;
+}
+
+#berry_litz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#spiced_rum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#seasonal_donuts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#myrtle_ave {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 12px;
+}
+
+#bedford_bizarre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 12px;
+}
+
+/* locations */
+.title_location {
+    position: absolute;
+    left: 600px;
+    top: 1660px;
+    z-index: 1;
+}
+
+#img_locations {
+    background-image: url("../img/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 278px;
+    width: 300px;
+    background-color: black;
+    margin: 0 20px;
+    line-height: 70px;
+    opacity: 1 !important;
+}
+
+.location h3 {
+    margin: 0px;
+}
+
+/* Contact infos */
+#contact_infos {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact_infos h2, h5 {
+    margin: 15px;
+}
+
+#contact_infos a {
+    color: seashell;
+    text-decoration: none;
+}
+
+/* end of the main */
+
+/*  footer */
+footer {
+    margin-left: 20px;
+    text-align: left;
+}
